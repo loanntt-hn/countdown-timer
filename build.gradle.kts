@@ -1,0 +1,1 @@
+plugins {\n    id("com.android.application") version "7.2.0" apply false\n    id("org.jetbrains.kotlin.android") version "1.6.0" apply false\n}\n\nandroid {\n    compileSdk = 33\n    defaultConfig {\n        applicationId = "com.example.countdowntimer"\n        minSdk = 21\n        targetSdk = 33\n        versionCode = 1\n        versionName = "1.0"\n    }\n}
